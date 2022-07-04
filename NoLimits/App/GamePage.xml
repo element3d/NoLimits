@@ -1,0 +1,14 @@
+<Element
+  backgroundImage="NoLimits/bg.png"
+  backgroundSize="Cover"
+  orientation="Vertical">
+
+  <AppBar></AppBar>
+  <Element
+    height="100%"
+    scaling="Shrink">
+    
+  </Element>
+  <BottomMenu element="mBottomMenu"></BottomMenu>
+
+</Element>

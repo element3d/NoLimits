@@ -1,0 +1,41 @@
+<Element
+  width="100%"
+  height="100%"
+  positionType="Absolute"
+  backgroundColor="glm::vec4(0, 0, 0, 240)">
+
+  <Element
+    element="mBack"
+    width="100%"
+    height="110%"
+    positionType="Absolute"
+    borderType="Cut"
+    backgroundColor="#05b7f7"
+    borderRadius="glm::vec4(1, 0, 0, 0)">
+  </Element>
+  <Element
+    element="mFront"
+    width="100%"
+    height="110%"
+    positionType="Absolute"
+    borderType="Cut"
+    backgroundColor="glm::vec4(0, 0, 0, 255)"
+    borderSize="10"
+    borderColor="#634db9"
+    borderRadius="glm::vec4(1, 0, 0, 0)"
+    orientation="Vertical"
+    overflow="Hidden">
+
+    <Element
+      width="100%"
+      height="80%">
+    </Element>
+    <Element
+      width="100%"
+      height="20%"
+      backgroundColor="#e7ffff">
+    </Element>
+
+  </Element>
+
+</Element>

@@ -1,0 +1,14 @@
+<Element
+      element="mContent"
+      width="100%"
+      height="d: 500dp, m: 70%"
+      padding="40dp"
+      paddingLeft="100dp"
+      alignItemsHor="Start"
+      overflow="Scroll"
+     >
+
+      <GameMenuCampaign></GameMenuCampaign>
+      <GameMenuEvents element="mMenuEvents"></GameMenuEvents>
+      <GameMenuMono element="mMenuMono"></GameMenuMono>
+    </Element>

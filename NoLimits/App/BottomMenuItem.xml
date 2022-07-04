@@ -1,0 +1,26 @@
+<Element
+  element="mHome"
+  width="25%"
+  height="100%"
+  orientation="Vertical"
+  backgroundColor="#54b5e0"
+  alignItemsHor="Start"
+  alignItemsVer="SpaceBetween"
+  >
+  <Element
+    width="100%"
+    height="10dp"
+    backgroundColor="glm::vec4(255)">
+  </Element>
+  <Text
+    text="HOME"
+    fontSize="18dp"
+    textColor="#29216c"
+    fontStyle="Bold"
+    margin="5dp">
+  </Text>
+
+  <BadgeNew>
+  </BadgeNew>
+
+</Element>

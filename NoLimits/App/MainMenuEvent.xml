@@ -1,0 +1,61 @@
+<MenuItem
+  width="400dp"
+  height="100%"
+  margin="10dp"
+  backgroundImage="NoLimits/event.png"
+  backgroundSize="Cover"
+  borderRadius="glm::vec4(10)"
+  borderSize="2dp"
+  borderColor="glm::vec4(255, 255, 255, 100)"
+  opacity="1"
+  orientation="Vertical"
+  alignItemsVer="SpaceBetween"
+  padding="10dp">
+  <!-- <Element
+    orientation="Vertical"
+    width="100%"
+    alignItemsHor="End"
+    height="100dp"
+    backgroundColor="glm::vec4(255)">
+    <Text
+      text="SPECIAL EVENT"
+      fontSize="16dp"
+      textColor="glm::vec4(255)"
+      fontStyle="Bold">
+    </Text>
+    <Element>
+      <Text
+        text="REMAINING"
+        fontSize="14dp"
+        textColor="#f0c214"
+        fontStyle="Bold">
+      </Text>
+      <Text
+        text="4d. 2h."
+        fontSize="14dp"
+        textColor="glm::vec4(255)">
+      </Text>
+    </Element>
+  </Element>
+
+  <Element
+    width="100%"
+    orientation="Vertical"
+    alignItemsHor="Start">
+    <Text
+      text="FINISH AND WIN"
+      fontSize="16dp"
+      textColor="glm::vec4(255)"
+      fontStyle="Bold">
+    </Text>
+    <Text
+      text="LAMBORGINI HURACAN"
+      fontSize="18dp"
+      textColor="#f0c214"
+      fontStyle="Bold">
+    </Text>
+  </Element> -->
+
+  <NextIcon>
+  </NextIcon>
+</MenuItem>

@@ -1,0 +1,114 @@
+#include "MainMenuGarageBase.h"
+
+#include <e3/ViewFactory.h>
+#include "./NoLimitsValues.h"
+
+MainMenuGarageBase::MainMenuGarageBase(e3::Element* pParent)
+	: e3::Element(pParent)
+{
+        this->SetWidth("170dp");
+        this->SetHeight("100%");
+        this->SetMargin("10dp");
+        this->SetAlignItemsVer((e3::EAlignment)0);
+        this->SetOrientation((e3::EOrientation)1);
+    e3::Element* pElement1 = e3::ViewFactory::CreateShape( e3::EOrientation::Horizontal);
+    AddElement(pElement1);
+        pElement1->SetWidth("100%");
+        pElement1->SetHeight("60dp");
+        pElement1->SetBorderRadius(glm::vec4(10));
+        pElement1->SetMarginBottom("10dp");
+        pElement1->SetOrientation((e3::EOrientation)1);
+        pElement1->SetBackgroundColor(glm::vec4(255, 255, 255, 50));
+    e3::Element* pElement2 = e3::ViewFactory::CreateShape( e3::EOrientation::Horizontal);
+    pElement1->AddElement(pElement2);
+        pElement2->SetWidth("100%");
+        pElement2->SetHeight("60%");
+        pElement2->SetAlignItemsHor((e3::EAlignment)0);
+        e3::FontIcon* pFontIcon1 = e3::ViewFactory::CreateFontIcon();
+        pElement2->AddElement(pFontIcon1);
+        pFontIcon1->SetWidth("35dp");
+        pFontIcon1->SetAspectRatio(1.000000);
+        pFontIcon1->SetFont(_s(NoLimits/icomoon.ttf));
+        pFontIcon1->SetCharcode(59658);
+        pFontIcon1->SetColor(glm::vec4(255));
+        pFontIcon1->SetMarginRight("10dp");
+        pFontIcon1->SetMarginLeft("10dp");
+        e3::Text* pText1 = e3::ViewFactory::CreateText();
+        pElement2->AddElement(pText1);
+        pText1->SetText("GARAGE");
+        pText1->SetTextColor(glm::vec4(255));
+        pText1->SetFontSize("20dp");
+        pText1->SetFontStyle((e3::EFontStyle)2);
+    e3::Element* pElement3 = e3::ViewFactory::CreateShape( e3::EOrientation::Horizontal);
+    pElement1->AddElement(pElement3);
+        pElement3->SetWidth("100%");
+        pElement3->SetHeight("40%");
+        e3::Text* pText2 = e3::ViewFactory::CreateText();
+        pElement3->AddElement(pText2);
+        pText2->SetText("EXISTS 10/250 CARS");
+        pText2->SetTextColor(glm::vec4(255));
+        pText2->SetFontSize("14dp");
+        pText2->SetFontStyle((e3::EFontStyle)2);
+    e3::Element* pElement4 = e3::ViewFactory::CreateShape( e3::EOrientation::Horizontal);
+    AddElement(pElement4);
+        pElement4->SetWidth("100%");
+        pElement4->SetMarginBottom("10dp");
+        pElement4->SetAlignItemsHor((e3::EAlignment)3);
+    e3::Element* pElement5 = e3::ViewFactory::CreateShape( e3::EOrientation::Horizontal);
+    pElement4->AddElement(pElement5);
+        pElement5->SetWidth("80dp");
+        pElement5->SetHeight("60dp");
+        pElement5->SetBorderRadius(glm::vec4(10));
+        pElement5->SetBackgroundColor(glm::vec4(255, 255, 255, 50));
+        e3::FontIcon* pFontIcon2 = e3::ViewFactory::CreateFontIcon();
+        pElement5->AddElement(pFontIcon2);
+        pFontIcon2->SetWidth("45dp");
+        pFontIcon2->SetAspectRatio(1.000000);
+        pFontIcon2->SetFont(_s(NoLimits/icomoon.ttf));
+        pFontIcon2->SetCharcode(59664);
+        pFontIcon2->SetColor(glm::vec4(255));
+    e3::Element* pElement6 = e3::ViewFactory::CreateShape( e3::EOrientation::Horizontal);
+    pElement4->AddElement(pElement6);
+        pElement6->SetWidth("80dp");
+        pElement6->SetHeight("60dp");
+        pElement6->SetBorderRadius(glm::vec4(10));
+        pElement6->SetBackgroundColor(glm::vec4(255, 255, 255, 50));
+        e3::FontIcon* pFontIcon3 = e3::ViewFactory::CreateFontIcon();
+        pElement6->AddElement(pFontIcon3);
+        pFontIcon3->SetWidth("45dp");
+        pFontIcon3->SetAspectRatio(1.000000);
+        pFontIcon3->SetFont(_s(NoLimits/icomoon.ttf));
+        pFontIcon3->SetCharcode(59651);
+        pFontIcon3->SetColor(glm::vec4(255));
+        mGolds = new MenuItem();
+        AddElement(mGolds);
+        mGolds->SetWidth("100%");
+        mGolds->SetHeight("60dp");
+        mGolds->SetOpacity(1.000000);
+        mGolds->SetBorderRadius(glm::vec4(10));
+        mGolds->SetBackgroundColor(glm::vec4(254.000000, 192.000000, 29.000000, 255.000000));
+    e3::Element* pElement7 = e3::ViewFactory::CreateShape( e3::EOrientation::Horizontal);
+    mGolds->AddElement(pElement7);
+        pElement7->SetOrientation((e3::EOrientation)1);
+        pElement7->SetMarginRight("30dp");
+        e3::Text* pText3 = e3::ViewFactory::CreateText();
+        pElement7->AddElement(pText3);
+        pText3->SetText("GOLD");
+        pText3->SetTextColor(glm::vec4(0, 0, 0, 255));
+        pText3->SetFontSize("20dp");
+        pText3->SetFontStyle((e3::EFontStyle)2);
+        e3::Text* pText4 = e3::ViewFactory::CreateText();
+        pElement7->AddElement(pText4);
+        pText4->SetText("FREE");
+        pText4->SetTextColor(glm::vec4(0, 0, 0, 255));
+        pText4->SetFontSize("20dp");
+        pText4->SetFontStyle((e3::EFontStyle)2);
+        e3::FontIcon* pFontIcon4 = e3::ViewFactory::CreateFontIcon();
+        mGolds->AddElement(pFontIcon4);
+        pFontIcon4->SetWidth("45dp");
+        pFontIcon4->SetAspectRatio(1.000000);
+        pFontIcon4->SetFont(_s(NoLimits/icomoon.ttf));
+        pFontIcon4->SetCharcode(59663);
+        pFontIcon4->SetColor(glm::vec4(0, 0, 0, 255));
+
+}

@@ -1,0 +1,207 @@
+<Element
+  width="100%"
+  height="60dp"
+  orientation="Horizontal"
+  alignItemsHor="SpaceBetween"
+  paddingLeft="100dp"
+  paddingRight="100dp">
+
+  <Element
+
+    height="100%">
+    <FontIcon
+      width="30dp"
+      aspectRatio="1"
+      font="_s(NoLimits/icomoon.ttf)"
+      charcode="e90c"
+      color="glm::vec4(255)">
+    </FontIcon>
+    <FontIcon
+      width="30dp"
+      aspectRatio="1"
+      marginLeft="20dp"
+      font="_s(NoLimits/icomoon.ttf)"
+      charcode="e902"
+      color="glm::vec4(255)">
+    </FontIcon>
+    <Element
+      width="35dp"
+      aspectRatio="1"
+      marginLeft="20dp"
+      borderRadius="glm::vec4(0.5)"     
+      backgroundColor="glm::vec4(255, 255, 255, 50)">
+
+      <FontIcon
+        width="25dp"
+        aspectRatio="1"
+        font="_s(NoLimits/icomoon.ttf)"
+        charcode="e90a"
+        color="glm::vec4(255)">
+      </FontIcon>
+
+    </Element>
+    <Element
+      element="mMissions"
+      width="35dp"
+      aspectRatio="1"
+      marginLeft="20dp"
+      borderRadius="glm::vec4(0.5)"     
+      backgroundColor="glm::vec4(255, 255, 255, 50)">
+
+      <FontIcon
+        width="20dp"
+        aspectRatio="1"
+        font="_s(NoLimits/icomoon.ttf)"
+        charcode="e906"
+        color="glm::vec4(255)">
+      </FontIcon>
+      <BadgeIcon>
+      </BadgeIcon>
+    </Element>
+
+    <Element
+      marginLeft="20dp">
+      <Element
+        width="30dp"
+        aspectRatio="1"
+        backgroundColor="#2e1769"
+        shapeType="Circle"
+        borderSize="2dp"
+        borderColor="glm::vec4(255, 255, 255, 100)">
+
+        <FontIcon
+          width="14dp"
+          aspectRatio="1"
+          font="_s(NoLimits/icomoon.ttf)"
+          charcode="e909"
+          color="glm::vec4(255)">
+        </FontIcon>
+      </Element>
+      <Text
+        marginLeft="10dp"
+        text="72"
+        fontStyle="Bold"
+        fontSize="14dp"
+        textColor="glm::vec4(255)">
+      </Text>
+    </Element>
+
+  </Element>
+  <Element
+    width="40%"
+    height="100%">
+
+    <Element
+      marginLeft="20dp">
+      <Element
+        width="25dp"
+        aspectRatio="1"
+        backgroundColor="glm::vec4(255)"
+        shapeType="Circle">
+
+        <FontIcon
+          width="14dp"
+          aspectRatio="1"
+          font="_s(NoLimits/icomoon.ttf)"
+          charcode="e904"
+          color="glm::vec4(0, 0, 0, 255)">
+        </FontIcon>
+      </Element>
+      <Text
+        marginLeft="5dp"
+        text="175 239"
+        fontStyle="Bold"
+        fontSize="14dp"
+        textColor="glm::vec4(255)">
+      </Text>
+      <Element
+        marginLeft="5dp"
+        width="1dp"
+        height="10dp"
+        backgroundColor="glm::vec4(255, 255, 255, 100)">
+      </Element>
+    </Element>
+
+    <Element
+      marginLeft="20dp">
+      <FontIcon
+        width="20dp"
+        aspectRatio="1"
+        font="_s(NoLimits/icomoon.ttf)"
+        charcode="e908"
+        color="#fdd41a">
+      </FontIcon>
+      <Text
+        marginLeft="5dp"
+        text="721"
+        fontStyle="Bold"
+        fontSize="14dp"
+        textColor="#fdd41a">
+      </Text>
+      <Element
+        marginLeft="10dp"
+        width="18dp"
+        aspectRatio="1"
+        shapeType="Circle"
+        backgroundColor="#5dd780">
+        <FontIcon
+          width="14dp"
+          aspectRatio="1"
+          font="_s(NoLimits/icomoon.ttf)"
+          charcode="e905"
+          color="glm::vec4(0, 0, 0, 255)">
+        </FontIcon>
+      </Element>
+      <Element
+        marginLeft="5dp"
+        width="1dp"
+        height="10dp"
+        backgroundColor="glm::vec4(255, 255, 255, 100)">
+      </Element>
+    </Element>
+
+    <Element
+      marginLeft="20dp">
+      <FontIcon
+        width="20dp"
+        aspectRatio="1"
+        font="_s(NoLimits/icomoon.ttf)"
+        charcode="e907"
+        color="#81f5d2">
+      </FontIcon>
+      <Text
+        marginLeft="5dp"
+        text="10/10"
+        fontStyle="Bold"
+        fontSize="14dp"
+        textColor="#81f5d2">
+      </Text>
+      <Element
+        element="mFuel"
+        marginLeft="10dp"
+        width="18dp"
+        aspectRatio="1"
+        shapeType="Circle"
+        backgroundColor="#5dd780">
+        <FontIcon
+          width="14dp"
+          aspectRatio="1"
+          font="_s(NoLimits/icomoon.ttf)"
+          charcode="e905"
+          color="glm::vec4(0, 0, 0, 255)">
+        </FontIcon>
+      </Element>
+    </Element>
+
+    <FontIcon
+      marginLeft="20dp"
+      width="24dp"
+      aspectRatio="1"
+      font="_s(NoLimits/icomoon.ttf)"
+      charcode="e900"
+      color="glm::vec4(255)">
+    </FontIcon>
+
+  </Element>
+
+</Element>

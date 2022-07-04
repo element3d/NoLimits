@@ -1,0 +1,77 @@
+<Element
+  width="90%"
+  height="40dp"
+  backgroundColor="#634db9"
+  marginBottom="10dp"
+  borderRadius="glm::vec4(10)">
+  <Element
+    width="60%"
+    height="100%"
+    alignItemsHor="Start">
+    <Element
+      marginLeft="20dp"
+      height="50%"
+      aspectRatio="1"
+      borderRadius="glm::vec4(0.5)"
+      backgroundColor="glm::vec4(255)">
+    </Element>
+    <Element
+      orientation="Vertical"
+      alignItemsHor="Start"
+      marginLeft="20dp">
+      <Text
+        text="FINISH AT LEAST 6 RACES AGAINST UNDERGROUND RIVALS"
+        fontSize="12dp"
+        textColor="#4287f5">
+      </Text>
+      <Text
+        text="0/5 FINISHED"
+        fontSize="13dp"
+        textColor="glm::vec4(255, 255, 255, 150)">
+      </Text>
+    </Element>
+  </Element>
+  <Element
+    width="40%"
+    height="100%"
+    alignItemsHor="SpaceBetween">
+    <Element>
+      <FontIcon
+        width="20dp"
+        aspectRatio="1"
+        font="_s(NoLimits/icomoon.ttf)"
+        charcode="e908"
+        color="#f0c214">
+      </FontIcon>
+      <Text
+        marginLeft="10dp"
+        text="5"
+        textColor="#f0c214"
+        fontSize="16dp">
+      </Text>
+    </Element>
+    <Element>
+      <FontIcon
+        width="20dp"
+        aspectRatio="1"
+        font="_s(NoLimits/icomoon.ttf)"
+        charcode="e909"
+        color="glm::vec4(255)">
+      </FontIcon>
+      <Text
+        marginLeft="10dp"
+        text="25"
+        textColor="glm::vec4(255)"
+        fontSize="16dp">
+      </Text>
+    </Element>
+    <Element
+      marginRight="20dp"
+      height="60%"
+      width="100dp"
+      backgroundColor="glm::vec4(255)"
+      borderRadius="glm::vec4(10)">
+     
+    </Element>
+  </Element>
+</Element>

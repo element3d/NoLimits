@@ -1,0 +1,16 @@
+<Badge
+  width="16dp"
+  height="16dp"
+  top="-4"
+  right="-4"
+  shapeType="Circle">
+ 
+   <FontIcon
+    width="10dp"
+    aspectRatio="1"
+    font="_s(NoLimits/icomoon.ttf)"
+    charcode="e90b"
+    color="glm::vec4(0, 0, 0, 255)">
+  </FontIcon>
+
+</Badge>

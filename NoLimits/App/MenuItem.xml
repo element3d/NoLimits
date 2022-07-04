@@ -1,0 +1,7 @@
+<Element
+  borderRadius="glm::vec4(10)"
+  borderSize="2dp"
+  borderColor="glm::vec4(255, 255, 255, 100)"
+  opacity="1"
+  overflow="Hidden">
+</Element>

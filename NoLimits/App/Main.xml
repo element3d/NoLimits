@@ -1,0 +1,15 @@
+<Element
+  backgroundImage="NoLimits/event.jpg"
+  backgroundSize="Cover"
+  orientation="Vertical">
+
+  <AppBar element="mAppBar"></AppBar>
+  <Element
+    element="mRouter"
+    height="100%"
+    scaling="Shrink">
+    <HomeElement element="mContent"></HomeElement>
+  </Element>
+  <BottomMenu element="mBottomMenu"></BottomMenu>
+
+</Element>

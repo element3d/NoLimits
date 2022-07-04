@@ -1,0 +1,20 @@
+<Element
+  width="50dp"
+  height="30dp"
+  positionType="Absolute"
+  right="0"
+  bottom="0"
+  borderType="Cut"
+  borderRadius="glm::vec4(1, 0, 0, 0)"
+  backgroundColor="glm::vec4(255)"
+  overflow="Hidden"
+  alignItemsHor="End">
+   <FontIcon
+      width="18dp"
+      aspectRatio="1"
+      font="_s(NoLimits/icomoon.ttf)"
+      charcode="e90d"
+      marginRight="5dp"
+      color="#634db9">
+    </FontIcon>
+</Element>

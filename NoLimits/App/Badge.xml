@@ -1,0 +1,8 @@
+
+    <Element
+      element="mBadge"
+      backgroundColor="#f0c214"
+      borderRadius="glm::vec4(5)"
+      positionType="Absolute">
+
+    </Element>
