@@ -12,7 +12,7 @@ Main::Main(e3::Element* pParent)
 		MissionDialog* pD = new MissionDialog();
 		AddElement(pD);
 		pD->SetOnCloseCallback([this, pD]() {
-			RemoveElement(pD);
+			RemoveElement(pD, false);
 		});
 	});
 
@@ -21,11 +21,14 @@ Main::Main(e3::Element* pParent)
 		
 	});
 
+	mContent->Show();
 	mBottomMenu->SetOnChooseCallback([this](int menu) {
 		if (menu == 1) 
 		{
 			mRouter->RemoveElement(mContent, false);
-			mGameElement = new GameElement();
+			if (!mGameElement)
+				mGameElement = new GameElement();
+			mGameElement->Show();
 			mRouter->AddElement(mGameElement);
 			SetBackgroundImage("NoLimits/bg.png");
 			//GetApplication()->PushElement(new GamePage());
@@ -34,6 +37,7 @@ Main::Main(e3::Element* pParent)
 		{
 			mRouter->RemoveElement(mGameElement, false);
 			mRouter->AddElement(mContent);
+			mContent->Show();
 			SetBackgroundImage("NoLimits/event.jpg");
 		}
 	});

@@ -1,5 +1,5 @@
 <Element
-  width="50dp"
+  width="45dp"
   height="30dp"
   positionType="Absolute"
   right="0"
@@ -10,7 +10,7 @@
   overflow="Hidden"
   alignItemsHor="End">
    <FontIcon
-      width="18dp"
+      width="14dp"
       aspectRatio="1"
       font="_s(NoLimits/icomoon.ttf)"
       charcode="e90d"

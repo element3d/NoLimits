@@ -1,7 +1,6 @@
 <Element
-  width="300dp"
+  width="200dp"
   height="100%"
-  margin="10dp"
   orientation="Vertical"
   opacity="0">
 
@@ -9,20 +8,20 @@
     width="100%"
     height="50%"
     marginBottom="10dp"
-    borderRadius="glm::vec4(10)"
     backgroundColor="#f8be41"
     backgroundSize="Cover"
-    backgroundImage="NoLimits/game3.jpg">
+    backgroundImage="NoLimits/game3.jpg"
+    scaling="Shrink">
      <NextIcon>
     </NextIcon>
   </MenuItem>
   <MenuItem
     width="100%"
     height="50%"
-    borderRadius="glm::vec4(10)"
     backgroundColor="#b09f71"
     backgroundSize="Cover"
-    backgroundImage="NoLimits/game4.jpg">
+    backgroundImage="NoLimits/game4.jpg"
+    scaling="Shrink">
     <NextIcon>
     </NextIcon>
   </MenuItem>

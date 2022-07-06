@@ -2,7 +2,7 @@
     <Element
       element="mBadge"
       backgroundColor="#f0c214"
-      borderRadius="glm::vec4(5)"
+      borderRadius="glm::vec4(10)"
       positionType="Absolute">
 
     </Element>

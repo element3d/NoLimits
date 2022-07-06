@@ -1,7 +1,7 @@
 #include "GamePageBase.h"
 
 #include <e3/ViewFactory.h>
-#include "NoLimitsValues.h"
+#include "./NoLimitsValues.h"
 
 GamePageBase::GamePageBase(e3::Element* pParent)
 	: e3::Element(pParent)

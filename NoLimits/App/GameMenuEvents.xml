@@ -1,10 +1,9 @@
 <MenuItem
-  width="300dp"
+  width="160dp"
   height="100%"
-  margin="10dp"
+  marginRight="10dp"
   backgroundColor="#f98715"
   backgroundSize="Cover"
-  borderRadius="glm::vec4(10)"
   borderSize="2dp"
   borderColor="#92dba3"
   opacity="0"

@@ -1,50 +1,55 @@
 <Element
-  width="170dp"
+  width="120dp"
   height="100%"
-  margin="10dp"
+  marginRight="20dp"
   alignItemsVer="Start"
   orientation="Vertical">
   
   <Element
     width="100%"
-    height="60dp"
-    borderRadius="glm::vec4(10)"
-    marginBottom="10dp"
-    orientation="Vertical"
-    backgroundColor="glm::vec4(255, 255, 255, 50)">
-
+    marginBottom="10dp">
     <Element
       width="100%"
-      height="60%"
-      alignItemsHor="Start">
-      <FontIcon
-        width="35dp"
-        aspectRatio="1"
-        font="_s(NoLimits/icomoon.ttf)"
-        charcode="e90a"
-        color="glm::vec4(255)"
-        marginRight="10dp"
-        marginLeft="10dp">
-      </FontIcon>
-      <Text
-        text="GARAGE"
-        textColor="glm::vec4(255)"
-        fontSize="20dp"
-        fontStyle="Bold">
-      </Text>
-    </Element>
-    <Element
-      width="100%"
-      height="40%">
-      <Text
-        text="EXISTS 10/250 CARS"
-        textColor="glm::vec4(255)"
-        fontSize="14dp"
-        fontStyle="Bold">
-      </Text>
-    </Element>
+      height="50dp"
+      borderRadius="glm::vec4(20)"
+      orientation="Vertical"
+      overflow="Hidden"
+      backgroundColor="glm::vec4(255, 255, 255, 50)">
 
-
+      <Element
+        width="100%"
+        height="60%"
+        alignItemsHor="Start"
+        backgroundColor="glm::vec4(255, 255, 255, 10)">
+        <FontIcon
+          width="25dp"
+          aspectRatio="1"
+          font="_s(NoLimits/icomoon.ttf)"
+          charcode="e90a"
+          color="glm::vec4(255)"
+          marginRight="10dp"
+          marginLeft="10dp">
+        </FontIcon>
+        <Text
+          text="GARAGE"
+          textColor="glm::vec4(255)"
+          fontSize="14dp"
+          fontStyle="Bold">
+        </Text>
+      </Element>
+      <Element
+        width="100%"
+        height="40%"
+        >
+        <Text
+          text="EXISTS 10/250 CARS"
+          textColor="glm::vec4(255)"
+          fontSize="10dp"
+          fontStyle="Bold">
+        </Text>
+      </Element>
+    </Element>
+    <!-- <BadgeIcon></BadgeIcon> -->
   </Element>
 
   <Element
@@ -52,12 +57,12 @@
     marginBottom="10dp"
     alignItemsHor="SpaceBetween">
     <Element
-      width="80dp"
-      height="60dp"
-      borderRadius="glm::vec4(10)"
+      width="55dp"
+      height="50dp"
+      borderRadius="glm::vec4(20)"
       backgroundColor="glm::vec4(255, 255, 255, 50)">
       <FontIcon
-        width="45dp"
+        width="35dp"
         aspectRatio="1"
         font="_s(NoLimits/icomoon.ttf)"
         charcode="e910"
@@ -65,12 +70,12 @@
       </FontIcon>
     </Element>
     <Element
-      width="80dp"
-      height="60dp"
-      borderRadius="glm::vec4(10)"
+      width="55dp"
+      height="50dp"
+      borderRadius="glm::vec4(20)"
       backgroundColor="glm::vec4(255, 255, 255, 50)">
       <FontIcon
-        width="45dp"
+        width="35dp"
         aspectRatio="1"
         font="_s(NoLimits/icomoon.ttf)"
         charcode="e903"
@@ -81,9 +86,8 @@
   <MenuItem
     element="mGolds"
     width="100%"
-    height="60dp"
+    height="52dp"
     opacity="1"
-    borderRadius="glm::vec4(10)"
     backgroundColor="#fec01d">
     <Element
       orientation="Vertical"
@@ -91,22 +95,22 @@
       <Text
         text="GOLD"
         textColor="glm::vec4(0, 0, 0, 255)"
-        fontSize="20dp"
+        fontSize="16dp"
         fontStyle="Bold">
       </Text>
       <Text
         text="FREE"
         textColor="glm::vec4(0, 0, 0, 255)"
-        fontSize="20dp"
+        fontSize="16dp"
         fontStyle="Bold">
       </Text>
     </Element>
     <FontIcon
-      width="45dp"
+      width="35dp"
       aspectRatio="1"
       font="_s(NoLimits/icomoon.ttf)"
       charcode="e90f"
-      color="glm::vec4(0, 0, 0, 255)">
+      color="glm::vec4(40, 40, 40, 255)">
     </FontIcon>
   </MenuItem>
 

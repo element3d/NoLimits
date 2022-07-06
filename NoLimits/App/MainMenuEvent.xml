@@ -1,10 +1,9 @@
 <MenuItem
-  width="400dp"
+  width="300dp"
   height="100%"
-  margin="10dp"
+  marginRight="10dp"
   backgroundImage="NoLimits/event.png"
   backgroundSize="Cover"
-  borderRadius="glm::vec4(10)"
   borderSize="2dp"
   borderColor="glm::vec4(255, 255, 255, 100)"
   opacity="1"

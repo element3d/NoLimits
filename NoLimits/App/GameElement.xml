@@ -1,8 +1,8 @@
 <Element
       element="mContent"
       width="100%"
-      height="d: 500dp, m: 70%"
-      padding="40dp"
+      height="m: 80%, d: 500dp"
+      padding="0dp"
       paddingLeft="100dp"
       alignItemsHor="Start"
       overflow="Scroll"

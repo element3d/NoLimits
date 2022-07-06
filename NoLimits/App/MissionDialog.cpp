@@ -21,9 +21,9 @@ MissionDialog::MissionDialog(e3::Element* pParent)
 
 	SetOnClickCallback([this](e3::MouseEvent*) {
 		e3::Animation* pA = new e3::Animation();
-		pA->Start(0.1, 1.0, 0.8, [this](float v) {
+		pA->Start(0.1, 1.0, 0.9, [this](float v) {
 			//SetScale(glm::vec3(0.8 + 0.2 * v, 0.8 + 0.2 * v, 0), e3::ETransformAlignment::Center);
-			SetScale(glm::vec3(v, v, 0), e3::ETransformAlignment::Center);
+			mContent->SetScale(glm::vec3(v, v, 1), e3::ETransformAlignment::Center);
 		}, [this]() {
 			mOnCloseCallback();
 		});

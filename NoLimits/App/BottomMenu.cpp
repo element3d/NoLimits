@@ -3,11 +3,14 @@
 BottomMenu::BottomMenu(e3::Element* pParent)
 	: BottomMenuBase(pParent)
 {
+	mHome->Select();
 	mHome->SetOnClickCallback([this](e3::MouseEvent*) {
+		mGame->Unselect();
 		mOnChooseCallback(0);
 	});
 
 	mGame->SetOnClickCallback([this](e3::MouseEvent*) {
+		mHome->Unselect();
 		mOnChooseCallback(1);
 	});
 

@@ -6,18 +6,25 @@
 MissionDialogBase::MissionDialogBase(e3::Element* pParent)
 	: e3::Element(pParent)
 {
-        this->SetWidth("80%");
-        this->SetHeight("90%");
-        this->SetBackgroundColor(glm::vec4(0, 0, 0, 255));
-        this->SetBorderRadius(glm::vec4(10));
+        this->SetWidth("100%");
+        this->SetHeight("100%");
+        this->SetBackgroundColor(glm::vec4(0, 0, 0, 200));
         this->SetPositionType((e3::EPositionType)1);
-        this->SetOverflow((e3::EOverflow)0);
-        this->SetOrientation((e3::EOrientation)1);
+        this->SetAlignItemsVer((e3::EAlignment)1);
+    mContent = e3::ViewFactory::CreateShape( e3::EOrientation::Horizontal);
+    AddElement(mContent);
+        mContent->SetWidth("90%");
+        mContent->SetHeight("80%");
+        mContent->SetMarginBottom("30dp");
+        mContent->SetBackgroundColor(glm::vec4(20, 20, 20, 255));
+        mContent->SetBorderRadius(glm::vec4(20));
+        mContent->SetOverflow((e3::EOverflow)0);
+        mContent->SetOrientation((e3::EOrientation)1);
     e3::Element* pElement1 = e3::ViewFactory::CreateShape( e3::EOrientation::Horizontal);
-    AddElement(pElement1);
+    mContent->AddElement(pElement1);
         pElement1->SetWidth("100%");
         pElement1->SetHeight("50dp");
-        pElement1->SetBackgroundColor(glm::vec4(99.000000, 77.000000, 185.000000, 255.000000));
+        pElement1->SetBackgroundColor(glm::vec4(75.000000, 49.000000, 176.000000, 255.000000));
         pElement1->SetAlignItemsHor((e3::EAlignment)3);
     e3::Element* pElement2 = e3::ViewFactory::CreateShape( e3::EOrientation::Horizontal);
     pElement1->AddElement(pElement2);
@@ -62,7 +69,7 @@ MissionDialogBase::MissionDialogBase(e3::Element* pParent)
         pElement6->SetMarginRight("20dp");
         pElement6->SetAspectRatio(1.000000);
         pElement6->SetHeight("60%");
-        pElement6->SetBorderRadius(glm::vec4(5));
+        pElement6->SetBorderRadius(glm::vec4(20));
         pElement6->SetBackgroundColor(glm::vec4(255.000000, 0.000000, 84.000000, 255.000000));
         e3::FontIcon* pFontIcon2 = e3::ViewFactory::CreateFontIcon();
         pElement6->AddElement(pFontIcon2);
@@ -72,7 +79,7 @@ MissionDialogBase::MissionDialogBase(e3::Element* pParent)
         pFontIcon2->SetCharcode(59665);
         pFontIcon2->SetColor(glm::vec4(255));
     mScroll = e3::ViewFactory::CreateShape( e3::EOrientation::Horizontal);
-    AddElement(mScroll);
+    mContent->AddElement(mScroll);
         mScroll->SetOrientation((e3::EOrientation)1);
         mScroll->SetWidth("100%");
         mScroll->SetHeight("100%");

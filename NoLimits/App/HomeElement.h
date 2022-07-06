@@ -8,6 +8,8 @@ class E3_EXPORT HomeElement : public HomeElementBase
 {
 public:
 	HomeElement(e3::Element* pParent = nullptr);
+
+	void Show();
 };
 
 #endif // HomeElement_H_

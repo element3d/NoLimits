@@ -22,7 +22,8 @@ public:
 
  
 protected:
-	e3::Element* mScroll = nullptr;
+	e3::Element* mContent = nullptr;
+e3::Element* mScroll = nullptr;
 
 
 };

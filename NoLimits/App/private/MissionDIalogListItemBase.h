@@ -3,6 +3,7 @@
 #define __MissionDIalogListItemBase_H__
 
 #include <e3/ViewFactory.h>
+#include <MenuItem.h>
 
 
 class MissionDIalogListItemBase : public e3::Element

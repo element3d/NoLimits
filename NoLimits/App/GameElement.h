@@ -8,6 +8,8 @@ class E3_EXPORT GameElement : public GameElementBase
 {
 public:
 	GameElement(e3::Element* pParent = nullptr);
+
+	void Show();
 };
 
 #endif // GameElement_H_

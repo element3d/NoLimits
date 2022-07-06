@@ -6,7 +6,7 @@
 NextIconBase::NextIconBase(e3::Element* pParent)
 	: e3::Element(pParent)
 {
-        this->SetWidth("50dp");
+        this->SetWidth("45dp");
         this->SetHeight("30dp");
         this->SetPositionType((e3::EPositionType)1);
         this->SetRight(0);
@@ -18,7 +18,7 @@ NextIconBase::NextIconBase(e3::Element* pParent)
         this->SetAlignItemsHor((e3::EAlignment)1);
         e3::FontIcon* pFontIcon1 = e3::ViewFactory::CreateFontIcon();
         AddElement(pFontIcon1);
-        pFontIcon1->SetWidth("18dp");
+        pFontIcon1->SetWidth("14dp");
         pFontIcon1->SetAspectRatio(1.000000);
         pFontIcon1->SetFont(_s(NoLimits/icomoon.ttf));
         pFontIcon1->SetCharcode(59661);

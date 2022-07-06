@@ -1,16 +1,25 @@
 <Element
-  width="80%"
-  height="90%"
-  backgroundColor="glm::vec4(0, 0, 0, 255)"
-  borderRadius="glm::vec4(10)"
+  width="100%"
+  height="100%"
+  backgroundColor="glm::vec4(0, 0, 0, 200)"
   positionType="Absolute"
+  alignItemsVer="End">
+
+<Element
+  element="mContent"
+  width="90%"
+  height="80%"
+  marginBottom="30dp"
+  backgroundColor="glm::vec4(20, 20, 20, 255)"
+  borderRadius="glm::vec4(20)"
+ 
   overflow="Hidden"
   orientation="Vertical">
 
   <Element
     width="100%"
     height="50dp"
-    backgroundColor="#634db9"
+    backgroundColor="#4b31b0"
     alignItemsHor="SpaceBetween">
     <Element
       height="100%">
@@ -53,7 +62,7 @@
         marginRight="20dp"
         aspectRatio="1"
         height="60%"
-        borderRadius="glm::vec4(5)"
+        borderRadius="glm::vec4(20)"
         backgroundColor="#ff0054">
         <FontIcon
           width="20dp"
@@ -75,4 +84,5 @@
     alignItemsHor="Center">
   </Element>
 
+</Element>
 </Element>

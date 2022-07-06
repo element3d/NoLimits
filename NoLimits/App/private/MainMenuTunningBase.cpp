@@ -6,17 +6,17 @@
 MainMenuTunningBase::MainMenuTunningBase(e3::Element* pParent)
 	: e3::Element(pParent)
 {
-        this->SetWidth("300dp");
+        this->SetWidth("200dp");
         this->SetHeight("100%");
-        this->SetMargin("10dp");
+        this->SetMarginRight("10dp");
         this->SetOrientation((e3::EOrientation)1);
         this->SetOpacity(0.000000);
                 MenuItem* pCustomView1 = new MenuItem();
         AddElement(pCustomView1);
         pCustomView1->SetWidth("100%");
         pCustomView1->SetHeight("50%");
+        pCustomView1->SetScaling((e3::EScaling)1);
         pCustomView1->SetMarginBottom("10dp");
-        pCustomView1->SetBorderRadius(glm::vec4(10));
         pCustomView1->SetBackgroundImage("NoLimits/lambo.jpg");
         pCustomView1->SetBackgroundImageFit((e3::EBackgroundSize)1);
         pCustomView1->SetAlignItemsVer((e3::EAlignment)0);
@@ -41,7 +41,7 @@ MainMenuTunningBase::MainMenuTunningBase(e3::Element* pParent)
         AddElement(pCustomView3);
         pCustomView3->SetWidth("100%");
         pCustomView3->SetHeight("50%");
-        pCustomView3->SetBorderRadius(glm::vec4(10));
+        pCustomView3->SetScaling((e3::EScaling)1);
         pCustomView3->SetBackgroundImage("NoLimits/lambo2.jpg");
         pCustomView3->SetBackgroundImageFit((e3::EBackgroundSize)1);
         pCustomView3->SetAlignItemsVer((e3::EAlignment)0);

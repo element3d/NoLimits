@@ -8,13 +8,15 @@
   alignItemsVer="SpaceBetween"
   >
   <Element
+    element="mSelection"
     width="100%"
-    height="10dp"
+    height="6dp"
     backgroundColor="glm::vec4(255)">
   </Element>
   <Text
+    element="mTitle"
     text="HOME"
-    fontSize="18dp"
+    fontSize="16dp"
     textColor="#29216c"
     fontStyle="Bold"
     margin="5dp">

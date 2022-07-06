@@ -1,15 +1,15 @@
 <Element
-  width="300dp"
+  width="200dp"
   height="100%"
-  margin="10dp"
+  marginRight="10dp"
   orientation="Vertical"
   opacity="0">
 
   <MenuItem
     width="100%"
     height="50%"
+    scaling="Shrink"
     marginBottom="10dp"
-    borderRadius="glm::vec4(10)"
     backgroundImage="NoLimits/lambo.jpg"
     backgroundSize="Cover"
     alignItemsVer="Start"
@@ -34,7 +34,7 @@
   <MenuItem
     width="100%"
     height="50%"
-    borderRadius="glm::vec4(10)"
+    scaling="Shrink"
     backgroundImage="NoLimits/lambo2.jpg"
     backgroundSize="Cover"
     alignItemsVer="Start"

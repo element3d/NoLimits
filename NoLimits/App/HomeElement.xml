@@ -1,14 +1,15 @@
 <Element
   element="mContent"
   width="100%"
-  height="d: 500dp, m: 70%"
-  padding="40dp"
-  paddingLeft="100dp"
+  height="m: 80%, d: 500dp"
+  padding="0dp"
+  paddingLeft="60dp"
+  paddingRight="200dp"
   alignItemsHor="Start"
   overflow="Scroll"
   scaling="Shrink">
 
-  <MainMenuGarage></MainMenuGarage>
+  <MainMenuGarage element="mGarage"></MainMenuGarage>
   <MainMenuEvent></MainMenuEvent>
   <MainMenuCampaign></MainMenuCampaign>
   <MainMenuTunning></MainMenuTunning>

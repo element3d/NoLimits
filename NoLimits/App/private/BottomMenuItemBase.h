@@ -23,7 +23,9 @@ public:
 
  
 protected:
-	
+	e3::Element* mSelection = nullptr;
+e3::Text* mTitle = nullptr;
+
 
 };
 

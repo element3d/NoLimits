@@ -26,7 +26,8 @@ public:
 
  
 protected:
-	
+	MainMenuGarage* mGarage = nullptr;
+
 
 };
 

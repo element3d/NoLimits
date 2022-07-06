@@ -7,8 +7,8 @@ GameElementBase::GameElementBase(e3::Element* pParent)
 	: e3::Element(pParent)
 {
         this->SetWidth("100%");
-        this->SetHeight("500dp");
-        this->SetPadding("40dp");
+        this->SetHeight(e3::Dim("80%", "80%", "80%", "500", "500", "500"));
+        this->SetPadding("0dp");
         this->SetPaddingLeft("100dp");
         this->SetAlignItemsHor((e3::EAlignment)0);
         this->SetOverflow((e3::EOverflow)2);

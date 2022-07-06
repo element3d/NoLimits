@@ -1,11 +1,11 @@
 <Element
-  width="60%"
-  height="70dp"
-  marginBottom="20dp"
+  width="70%"
+  height="55dp"
+  marginBottom="10dp"
   borderRadius="glm::vec4(30)"
   overflow="Hidden">
   <BottomMenuItem
-    borderRadius="glm::vec4(10, 0, 0, 10)"
+    borderRadius="glm::vec4(20, 0, 0, 20)"
     overflow="Hidden"
     element="mHome">
   </BottomMenuItem>
@@ -16,7 +16,7 @@
     element="mPVP">
   </BottomMenuItem>
   <BottomMenuItem
-    borderRadius="glm::vec4(0, 10, 10, 0)"
+    borderRadius="glm::vec4(0, 20, 20, 0)"
     overflow="Hidden"
     element="mShop">
   </BottomMenuItem>

@@ -1,11 +1,11 @@
 <Badge
-  width="50dp"
-  height="20dp"
-  top="15dp"
+  width="40dp"
+  height="16dp"
+  top="10dp"
   right="10dp">
   <Text
     text="NEW"
-    fontSize="14dp"
+    fontSize="12dp"
     textColor="glm::vec4(0, 0, 0, 255)">
   </Text>
 </Badge>

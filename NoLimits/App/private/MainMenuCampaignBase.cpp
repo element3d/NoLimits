@@ -6,18 +6,17 @@
 MainMenuCampaignBase::MainMenuCampaignBase(e3::Element* pParent)
 	: e3::Element(pParent)
 {
-        this->SetWidth("350dp");
+        this->SetWidth("210dp");
         this->SetHeight("100%");
-        this->SetMargin("10dp");
+        this->SetMarginRight("10dp");
         this->SetOrientation((e3::EOrientation)1);
         this->SetOpacity(0.000000);
         mCampaign = new MenuItem();
         AddElement(mCampaign);
         mCampaign->SetWidth("100%");
-        mCampaign->SetHeight("120dp");
+        mCampaign->SetHeight("80dp");
         mCampaign->SetBackgroundColor(glm::vec4(99.000000, 77.000000, 185.000000, 255.000000));
         mCampaign->SetMarginBottom("10dp");
-        mCampaign->SetBorderRadius(glm::vec4(10));
         mCampaign->SetOrientation((e3::EOrientation)1);
         mCampaign->SetAlignItemsVer((e3::EAlignment)3);
         mCampaign->SetPadding("5dp");
@@ -55,7 +54,6 @@ MainMenuCampaignBase::MainMenuCampaignBase(e3::Element* pParent)
         AddElement(pCustomView2);
         pCustomView2->SetWidth("100%");
         pCustomView2->SetHeight("100%");
-        pCustomView2->SetBorderRadius(glm::vec4(10));
         pCustomView2->SetScaling((e3::EScaling)1);
         pCustomView2->SetBackgroundColor(glm::vec4(255, 255, 255, 50));
         pCustomView2->SetOrientation((e3::EOrientation)1);
@@ -68,7 +66,6 @@ MainMenuCampaignBase::MainMenuCampaignBase(e3::Element* pParent)
         pElement3->AddElement(mFreeItem1);
         mFreeItem1->SetWidth("50%");
         mFreeItem1->SetHeight("100%");
-        mFreeItem1->SetBorderRadius(glm::vec4(10));
         mFreeItem1->SetMarginRight("10dp");
         mFreeItem1->SetBackgroundColor(glm::vec4(255.000000, 149.000000, 47.000000, 255.000000));
     e3::Element* pElement4 = e3::ViewFactory::CreateShape( e3::EOrientation::Horizontal);
@@ -80,7 +77,6 @@ MainMenuCampaignBase::MainMenuCampaignBase(e3::Element* pParent)
         pElement3->AddElement(mFreeItem2);
         mFreeItem2->SetWidth("50%");
         mFreeItem2->SetHeight("100%");
-        mFreeItem2->SetBorderRadius(glm::vec4(10));
         mFreeItem2->SetBackgroundColor(glm::vec4(255.000000, 255.000000, 123.000000, 255.000000));
     mShine = e3::ViewFactory::CreateShape( e3::EOrientation::Horizontal);
     mFreeItem2->AddElement(mShine);
@@ -97,17 +93,19 @@ MainMenuCampaignBase::MainMenuCampaignBase(e3::Element* pParent)
     pCustomView2->AddElement(pElement6);
         pElement6->SetWidth("100%");
         pElement6->SetHeight("25%");
+        pElement6->SetMarginTop("10dp");
         pElement6->SetOrientation((e3::EOrientation)1);
     e3::Element* pElement7 = e3::ViewFactory::CreateShape( e3::EOrientation::Horizontal);
     pElement6->AddElement(pElement7);
         pElement7->SetHeight("50%");
         pElement7->SetWidth("100%");
         pElement7->SetAlignItemsHor((e3::EAlignment)0);
+        pElement7->SetMarginBottom("2dp");
         e3::Text* pText4 = e3::ViewFactory::CreateText();
         pElement7->AddElement(pText4);
         pText4->SetText("BLACK FRIDAY");
         pText4->SetTextColor(glm::vec4(255));
-        pText4->SetFontSize("18dp");
+        pText4->SetFontSize("14dp");
         pText4->SetFontStyle((e3::EFontStyle)2);
                 BadgeNew* pCustomView3 = new BadgeNew();
         pElement7->AddElement(pCustomView3);
@@ -123,11 +121,11 @@ MainMenuCampaignBase::MainMenuCampaignBase(e3::Element* pParent)
         pElement8->AddElement(pText5);
         pText5->SetText("NEXT UPDATE:");
         pText5->SetTextColor(glm::vec4(255));
-        pText5->SetFontSize("14dp");
+        pText5->SetFontSize("10dp");
         pText5->SetFontStyle((e3::EFontStyle)2);
         e3::FontIcon* pFontIcon1 = e3::ViewFactory::CreateFontIcon();
         pElement8->AddElement(pFontIcon1);
-        pFontIcon1->SetWidth("14dp");
+        pFontIcon1->SetWidth("10dp");
         pFontIcon1->SetAspectRatio(1.000000);
         pFontIcon1->SetFont(_s(NoLimits/icomoon.ttf));
         pFontIcon1->SetCharcode(59662);
@@ -137,7 +135,7 @@ MainMenuCampaignBase::MainMenuCampaignBase(e3::Element* pParent)
         pElement8->AddElement(pText6);
         pText6->SetText("05:43:09");
         pText6->SetTextColor(glm::vec4(134.000000, 185.000000, 206.000000, 255.000000));
-        pText6->SetFontSize("14dp");
+        pText6->SetFontSize("10dp");
         pText6->SetFontStyle((e3::EFontStyle)2);
         pText6->SetMarginLeft("10dp");
                 NextIcon* pCustomView4 = new NextIcon();

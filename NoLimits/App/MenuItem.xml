@@ -1,5 +1,5 @@
 <Element
-  borderRadius="glm::vec4(10)"
+  borderRadius="glm::vec4(30)"
   borderSize="2dp"
   borderColor="glm::vec4(255, 255, 255, 100)"
   opacity="1"

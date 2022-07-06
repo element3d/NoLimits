@@ -1,19 +1,19 @@
 <Element
-  width="90%"
-  height="40dp"
-  backgroundColor="#634db9"
+  width="96%"
+  height="46dp"
+  backgroundColor="#302361"
   marginBottom="10dp"
-  borderRadius="glm::vec4(10)">
+  borderRadius="glm::vec4(20)">
   <Element
-    width="60%"
+    width="65%"
     height="100%"
     alignItemsHor="Start">
     <Element
       marginLeft="20dp"
-      height="50%"
+      height="40%"
       aspectRatio="1"
       borderRadius="glm::vec4(0.5)"
-      backgroundColor="glm::vec4(255)">
+      backgroundColor="#4b31b0">
     </Element>
     <Element
       orientation="Vertical"
@@ -32,12 +32,12 @@
     </Element>
   </Element>
   <Element
-    width="40%"
+    width="35%"
     height="100%"
     alignItemsHor="SpaceBetween">
     <Element>
       <FontIcon
-        width="20dp"
+        width="18dp"
         aspectRatio="1"
         font="_s(NoLimits/icomoon.ttf)"
         charcode="e908"
@@ -47,12 +47,12 @@
         marginLeft="10dp"
         text="5"
         textColor="#f0c214"
-        fontSize="16dp">
+        fontSize="14dp">
       </Text>
     </Element>
     <Element>
       <FontIcon
-        width="20dp"
+        width="18dp"
         aspectRatio="1"
         font="_s(NoLimits/icomoon.ttf)"
         charcode="e909"
@@ -62,16 +62,22 @@
         marginLeft="10dp"
         text="25"
         textColor="glm::vec4(255)"
-        fontSize="16dp">
+        fontSize="14dp">
       </Text>
     </Element>
-    <Element
-      marginRight="20dp"
-      height="60%"
+    <MenuItem
+      marginRight="5dp"
+      height="80%"
       width="100dp"
-      backgroundColor="glm::vec4(255)"
-      borderRadius="glm::vec4(10)">
+      opacity="1"
+      backgroundColor="#4b31b0">
+
+      <Text
+        text="PLAY"
+        fontSize="16dp"
+        textColor="glm::vec4(255)">
+      </Text>
      
-    </Element>
+    </MenuItem>
   </Element>
 </Element>

@@ -9,6 +9,7 @@ class E3_EXPORT BottomMenuItem : public BottomMenuItemBase
 public:
 	BottomMenuItem(e3::Element* pParent = nullptr);
 
+	void Select();
 	void Unselect();
 	bool OnClick(e3::MouseEvent*) override;
 };
