@@ -38,7 +38,7 @@ Main::Main(e3::Element* pParent)
 			mRouter->RemoveElement(mGameElement, false);
 			mRouter->AddElement(mContent);
 			mContent->Show();
-			SetBackgroundImage("NoLimits/event.jpg");
+			SetBackgroundImage("NoLimits/bg4.jpg");
 		}
 	});
 

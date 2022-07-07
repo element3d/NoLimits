@@ -70,7 +70,7 @@ MainMenuCampaignBase::MainMenuCampaignBase(e3::Element* pParent)
         mFreeItem1->SetBackgroundColor(glm::vec4(255.000000, 149.000000, 47.000000, 255.000000));
     e3::Element* pElement4 = e3::ViewFactory::CreateShape( e3::EOrientation::Horizontal);
     mFreeItem1->AddElement(pElement4);
-        pElement4->SetWidth("70%");
+        pElement4->SetWidth("80%");
         pElement4->SetAspectRatio(1.000000);
         pElement4->SetBackgroundImage("NoLimits/gold3.png");
         mFreeItem2 = new MenuItem();
@@ -83,10 +83,10 @@ MainMenuCampaignBase::MainMenuCampaignBase(e3::Element* pParent)
         mShine->SetPositionType((e3::EPositionType)1);
         mShine->SetWidth("100%");
         mShine->SetAspectRatio(1.000000);
-        mShine->SetBackgroundImage("NoLimits/shine.png");
+        mShine->SetBackgroundImage("NoLimits/shine2.png");
     e3::Element* pElement5 = e3::ViewFactory::CreateShape( e3::EOrientation::Horizontal);
     mFreeItem2->AddElement(pElement5);
-        pElement5->SetWidth("70%");
+        pElement5->SetWidth("80%");
         pElement5->SetAspectRatio(1.000000);
         pElement5->SetBackgroundImage("NoLimits/gold3.png");
     e3::Element* pElement6 = e3::ViewFactory::CreateShape( e3::EOrientation::Horizontal);

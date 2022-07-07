@@ -65,7 +65,7 @@
         marginRight="10dp"
         backgroundColor="#ff952f">
         <Element
-          width="70%"
+          width="80%"
           aspectRatio="1"
           backgroundImage="NoLimits/gold3.png">
         </Element>
@@ -80,10 +80,10 @@
           positionType="Absolute"
           width="100%"
           aspectRatio="1"
-          backgroundImage="NoLimits/shine.png">
+          backgroundImage="NoLimits/shine2.png">
         </Element>
         <Element
-          width="70%"
+          width="80%"
           aspectRatio="1"
           backgroundImage="NoLimits/gold3.png">
         </Element>

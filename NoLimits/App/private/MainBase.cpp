@@ -6,7 +6,7 @@
 MainBase::MainBase(e3::Element* pParent)
 	: e3::Element(pParent)
 {
-        this->SetBackgroundImage("NoLimits/event.jpg");
+        this->SetBackgroundImage("NoLimits/bg4.jpg");
         this->SetBackgroundImageFit((e3::EBackgroundSize)1);
         this->SetOrientation((e3::EOrientation)1);
         mAppBar = new AppBar();

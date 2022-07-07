@@ -9,7 +9,7 @@ BottomMenuItem::BottomMenuItem(e3::Element* pParent)
 
 void BottomMenuItem::Select()
 {
-	mTitle->SetTextColor(glm::vec4(41, 33, 108, 255));
+//	mTitle->SetTextColor(glm::vec4(41, 33, 108, 255));
 	mSelection->SetOpacity(1);
 	SetBackgroundLinearGradient(45, glm::vec4(84, 181, 224, 255), glm::vec4(73, 85, 185, 255));
 }
